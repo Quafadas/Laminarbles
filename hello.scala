@@ -3,7 +3,7 @@
 
 //> using dep org.scala-js::scalajs-dom::2.8.0
 //> using dep com.raquo::laminar::17.0.0
-//> using dep io.github.quafadas::dedav_laminar::0.9.2-1-05a8a88-20240725T191744Z-SNAPSHOT
+//> using dep io.github.quafadas::dedav_laminar::0.9.3
 //> using dep io.github.kitlangton::animus::0.6.2
 
 //> using jsEmitSourceMaps true
@@ -101,9 +101,9 @@ def app =
             spec => spec("marks")(0)("name") = "piedy"
           )
         ),
-        embedOpt = Some(
-          EmbedOptions(renderer = "svg")
-        )
+        // embedOpt = Some(
+          // EmbedOptions(renderer = "svg")
+        // )
       )
     )
   )
