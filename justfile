@@ -14,4 +14,4 @@ gha:
 
 buildJs:
   mkdir -p outDir
-  scala-cli --power package front/shoelace.scala -o {{outDir}} -f
+  scala-cli --power package . -o {{outDir}} -f
